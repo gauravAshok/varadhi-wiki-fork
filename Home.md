@@ -1,3 +1,5 @@
 ## Varadhi
 
-Varadhi is a message bus implementation with a REST interface. Varadhi supports both P2P (point-to-point) and Publish-Subscribe messaging models. The idea behind RESTBus is to take your HTTP API stack and automatically transform them into service bus driven, queued, message oriented endpoints. The communication from Varadhi to the end point will be on HTTP again. The sender will have to include additional headers denoting the target HTTP URL and the HTTP Method to use. Varadhi will use these headers to talk to the receiver.
+Varadhi is a message bus implementation with a REST interface, supporting both P2P (point-to-point) and Publish-Subscribe messaging models.
+
+The idea behind Varadhi, or RESTBus, is to take your HTTP API stack and automatically transform it into service bus-driven, queued, message-oriented endpoints. This means that the communication protocol with Varadhi will utilize HTTP 1.1/2 or even gRPC. Senders are required to include additional headers specifying the target URL and the Method to be used. Varadhi will use these headers to deliver messages to the receiver.
