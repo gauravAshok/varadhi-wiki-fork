@@ -1,4 +1,4 @@
-## Varadhi
+# Varadhi
 
 Varadhi is a message bus implementation with a REST interface, supporting both P2P (point-to-point) and Publish-Subscribe messaging models.
 
